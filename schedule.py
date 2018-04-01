@@ -11,7 +11,6 @@ class Schedule:
             schedules.append(self.generate_week_schedule())
         return schedules
 
-
     def generate_week_schedule(self):
         schedule = []
         items = list(range(1, self.WORKERS_AMOUNT + 1))
